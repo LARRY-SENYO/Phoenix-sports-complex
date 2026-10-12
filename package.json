@@ -1,0 +1,29 @@
+{
+  "name": "titan-sports-auth-system",
+  "version": "1.0.0",
+  "description": "Sports Authentication & Row-Level Authorization System with Salt, Pepper, 2FA, and Auth Backup",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test tests/auth.test.js"
+  },
+  "keywords": [
+    "sports",
+    "authentication",
+    "2fa",
+    "totp",
+    "salt-and-pepper",
+    "row-level-security",
+    "rls",
+    "auth-backup"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "qrcode": "^1.5.4"
+  }
+}
